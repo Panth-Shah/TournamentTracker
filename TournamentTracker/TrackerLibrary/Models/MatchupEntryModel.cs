@@ -18,7 +18,7 @@ namespace TrackerLibrary.Models
         public double Score { get; set; }
         /// <summary>
         /// Represents the matchup that this team came from as the winner
-        /// </summary>
+        /// </summary> 
         public MatchupModel ParentMatchup { get; set; }
     }
 }
